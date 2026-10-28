@@ -1,0 +1,15 @@
+id,date,direction,amount_ron,currency,description,category,counterparty,source_kind,document_number
+sales-01,2026-11-01,inflow,800,RON,Daily cafe sales,sales,,,
+sales-02,2026-11-02,inflow,800,RON,Daily cafe sales,sales,,,
+sales-03,2026-11-03,inflow,800,RON,Daily cafe sales,sales,,,
+sales-04,2026-11-04,inflow,800,RON,Daily cafe sales,sales,,,
+catering-cat-001,2026-11-04,inflow,10000,RON,Catering invoice CAT-001,receivable,Synthetic Events SRL,receivable,CAT-001
+rent-nov,2026-11-05,outflow,6000,RON,Monthly rent,rent,Synthetic Property SRL,,
+sales-05,2026-11-05,inflow,800,RON,Daily cafe sales,sales,,,
+sales-06,2026-11-06,inflow,800,RON,Daily cafe sales,sales,,,
+sales-07,2026-11-07,inflow,800,RON,Daily cafe sales,sales,,,
+payroll-nov,2026-11-08,outflow,9000,RON,Monthly payroll,payroll,,,
+sales-08,2026-11-08,inflow,800,RON,Daily cafe sales,sales,,,
+sales-09,2026-11-09,inflow,800,RON,Daily cafe sales,sales,,,
+sales-10,2026-11-10,inflow,800,RON,Daily cafe sales,sales,,,
+supplier-sup-001,2026-11-10,outflow,8000,RON,Supplier invoice SUP-001,supplier,Synthetic Coffee Supply SRL,supplier_invoice,SUP-001

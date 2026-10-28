@@ -1,0 +1,3 @@
+[{"capability":"code","source":"TanStack Start app","outcome":"migrate","status":"verified","next_action":"none"},
+{"capability":"database/records/auth","source":"none (in-browser demo state)","outcome":"not_applicable","status":"verified","next_action":"none"},
+{"capability":"AI assistant","source":"Lovable AI Gateway (LOVABLE_API_KEY)","outcome":"preserve","status":"pending","next_action":"try a question in the assistant"}]

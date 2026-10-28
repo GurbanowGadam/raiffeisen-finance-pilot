@@ -1,0 +1,302 @@
+{
+  "datasetVersion": "bucharest-cafe@1.0.0",
+  "source": {
+    "kind": "synthetic",
+    "label": "Synthetic demo data"
+  },
+  "profile": {
+    "id": "biz-bucharest-cafe",
+    "name": "Bucharest Cafe",
+    "currency": "RON",
+    "timezone": "Europe/Bucharest",
+    "openingBalance": {
+      "amount": 1200000,
+      "currency": "RON",
+      "asOf": "2026-11-01",
+      "position": "start_of_day"
+    },
+    "horizon": {
+      "start": "2026-11-01",
+      "end": "2026-11-30"
+    }
+  },
+  "cashEvents": [
+    {
+      "id": "evt-sales-2026-11-01",
+      "date": "2026-11-01",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-sales-2026-11-02",
+      "date": "2026-11-02",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-sales-2026-11-03",
+      "date": "2026-11-03",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-cat-001",
+      "date": "2026-11-04",
+      "direction": "inflow",
+      "amount": 1000000,
+      "currency": "RON",
+      "category": "receivable",
+      "description": "Catering invoice CAT-001 forecast receipt",
+      "counterparty": "Synthetic Events SRL",
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "receivable",
+        "id": "rcv-cat-001",
+        "documentNumber": "CAT-001"
+      }
+    },
+    {
+      "id": "evt-sales-2026-11-04",
+      "date": "2026-11-04",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-rent-2026-11",
+      "date": "2026-11-05",
+      "direction": "outflow",
+      "amount": 600000,
+      "currency": "RON",
+      "category": "rent",
+      "description": "Monthly rent",
+      "counterparty": "Synthetic Property SRL",
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "rent-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-sales-2026-11-05",
+      "date": "2026-11-05",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-sales-2026-11-06",
+      "date": "2026-11-06",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-sales-2026-11-07",
+      "date": "2026-11-07",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-payroll-2026-11",
+      "date": "2026-11-08",
+      "direction": "outflow",
+      "amount": 900000,
+      "currency": "RON",
+      "category": "payroll",
+      "description": "Monthly payroll",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "payroll-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-sales-2026-11-08",
+      "date": "2026-11-08",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-sales-2026-11-09",
+      "date": "2026-11-09",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-sales-2026-11-10",
+      "date": "2026-11-10",
+      "direction": "inflow",
+      "amount": 80000,
+      "currency": "RON",
+      "category": "sales",
+      "description": "Forecast daily cafe sales",
+      "counterparty": null,
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "fixture",
+        "id": "sales-plan-2026-11",
+        "documentNumber": null
+      }
+    },
+    {
+      "id": "evt-sup-001",
+      "date": "2026-11-10",
+      "direction": "outflow",
+      "amount": 800000,
+      "currency": "RON",
+      "category": "supplier",
+      "description": "Supplier invoice SUP-001 payment",
+      "counterparty": "Synthetic Coffee Supply SRL",
+      "status": "forecast",
+      "layer": "baseline",
+      "source": {
+        "kind": "supplier_invoice",
+        "id": "sup-001",
+        "documentNumber": "SUP-001"
+      }
+    }
+  ],
+  "receivables": [
+    {
+      "id": "rcv-cat-001",
+      "documentNumber": "CAT-001",
+      "counterparty": "Synthetic Events SRL",
+      "amount": 1000000,
+      "currency": "RON",
+      "expectedDate": "2026-11-04",
+      "status": "open",
+      "cashEventId": "evt-cat-001"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "asm-opening-balance",
+      "kind": "data",
+      "text": "The opening balance of 12,000.00 RON at the start of 2026-11-01 already includes all historical transactions. No historical rows are added again."
+    },
+    {
+      "id": "asm-all-forecast",
+      "kind": "data",
+      "text": "Every event in the baseline is a forecast. None is an actual payment."
+    },
+    {
+      "id": "asm-cat-001-timing",
+      "kind": "data",
+      "text": "Catering invoice CAT-001 (10,000.00 RON) is forecast to be received on 2026-11-04."
+    },
+    {
+      "id": "asm-no-sales-after-nov-10",
+      "kind": "simplification",
+      "text": "Daily sales of 800.00 RON are forecast only for 1-10 November. The absence of sales after 10 November is a simplifying demo assumption, not a realistic prediction."
+    },
+    {
+      "id": "asm-no-other-charges",
+      "kind": "simplification",
+      "text": "No other events or charges (taxes, utilities, fees, card settlements) are included in the baseline."
+    }
+  ]
+}

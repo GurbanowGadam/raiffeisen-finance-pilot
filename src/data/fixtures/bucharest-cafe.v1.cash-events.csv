@@ -1,0 +1,15 @@
+id,date,direction,amount_bani,currency,category,status,layer,description,counterparty,source_kind,source_id,document_number
+evt-sales-2026-11-01,2026-11-01,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-sales-2026-11-02,2026-11-02,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-sales-2026-11-03,2026-11-03,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-cat-001,2026-11-04,inflow,1000000,RON,receivable,forecast,baseline,Catering invoice CAT-001 forecast receipt,Synthetic Events SRL,receivable,rcv-cat-001,CAT-001
+evt-sales-2026-11-04,2026-11-04,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-rent-2026-11,2026-11-05,outflow,600000,RON,rent,forecast,baseline,Monthly rent,Synthetic Property SRL,fixture,rent-2026-11,
+evt-sales-2026-11-05,2026-11-05,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-sales-2026-11-06,2026-11-06,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-sales-2026-11-07,2026-11-07,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-payroll-2026-11,2026-11-08,outflow,900000,RON,payroll,forecast,baseline,Monthly payroll,,fixture,payroll-2026-11,
+evt-sales-2026-11-08,2026-11-08,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-sales-2026-11-09,2026-11-09,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-sales-2026-11-10,2026-11-10,inflow,80000,RON,sales,forecast,baseline,Forecast daily cafe sales,,fixture,sales-plan-2026-11,
+evt-sup-001,2026-11-10,outflow,800000,RON,supplier,forecast,baseline,Supplier invoice SUP-001 payment,Synthetic Coffee Supply SRL,supplier_invoice,sup-001,SUP-001

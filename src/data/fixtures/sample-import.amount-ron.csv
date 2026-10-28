@@ -1,0 +1,4 @@
+id,date,direction,amount_ron,currency,category,description,counterparty,source_kind,source_id,document_number
+evt-sales-2026-11-01,2026-11-01,inflow,800.00,RON,sales,Forecast daily cafe sales,,,,
+evt-cat-001,2026-11-04,inflow,10000,RON,receivable,Catering invoice CAT-001 forecast receipt,Synthetic Events SRL,receivable,rcv-cat-001,CAT-001
+evt-rent-2026-11,2026-11-05,outflow,6000.5,RON,rent,"Monthly rent, incl. service charge",Synthetic Property SRL,,,
